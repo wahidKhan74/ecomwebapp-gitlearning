@@ -1,0 +1,5 @@
+Git Operation List
+--------------------
+> git init -> initialize a git repository
+> git add . -> stage source code change
+> git comit -m "lable/message"  -> Commit version.
