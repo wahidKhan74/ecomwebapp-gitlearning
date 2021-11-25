@@ -1,5 +1,9 @@
 Git Operation List
 --------------------
-> git init -> initialize a git repository
-> git add . -> stage source code change
-> git comit -m "lable/message"  -> Commit version.
+> git init                         -> initialize a git repository
+> git add .                        -> stage source code change
+> git comit -m "lable/message"     -> Commit version.
+> git log                          -> get commit/version history
+> git log --oneline                -> online summary of commit/version history
+> git log --oneline | wc -l        -> total number of commit/version history
+> git reflog
