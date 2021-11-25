@@ -1,0 +1,20 @@
+1) Git Config:-
+-------------------
+1) System Level Git Config
+   > git config --system user.name=John Smith
+   > git config --system user.email=john@gmail.com
+   > git config --system --list
+   > git config --system --edit
+
+2) Global / User Level Git Config
+   > git config --global user.name=John Smith
+   > git config --global user.email=john@gmail.com
+   > git config --global --list
+   > git config --global --edit
+
+3) Repository/local Level Git Config
+
+   > git config --local user.name=John Smith
+   > git config --local user.email=john@gmail.com
+   > git config --local --list
+   > git config --local --edit
